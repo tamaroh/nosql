@@ -1,0 +1,23 @@
+{
+  "name": "nosql",
+  "version": "1.0.0",
+  "description": "1. what is nosql?  NoSQL is not \" No SQL\" リレーショナルではないデータベースのこと 1. おさらい：RDBMSってどういうのでしたっけ 2. NoSQLの特徴 3. どう言う時に向いているか 4. RDBとの共通点 5. 具体例：MongoDBの場合    1. オブジェクト指向データベース    2. JSONと同じように使える    3. コマンドもJavaScriptっぽい    4.",
+  "main": "mongoscripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaroh/nosql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamaroh/nosql/issues"
+  },
+  "homepage": "https://github.com/tamaroh/nosql#readme",
+  "dependencies": {
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.4"
+  }
+}

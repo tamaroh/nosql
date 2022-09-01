@@ -1,8 +1,8 @@
-create database sample;
 CREATE TABLE cohorts (
 	id serial NOT NULL primary key,
 	name text NOT NULL
 );
+
 CREATE TABLE students (
 	id serial NOT NULL,
 	name text NOT NULL,
